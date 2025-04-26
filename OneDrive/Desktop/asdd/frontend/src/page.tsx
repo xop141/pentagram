@@ -1,10 +1,12 @@
+import React from 'react'
 import Login from '@/app/login/page'
-
-export default function FeedPage() {
+const page = () => {
   return (
-    <div >
-      asd
-      <Login/>
+    <div>
+     <Login/>
     </div>
-  );
+  )
 }
+
+export default page
+
